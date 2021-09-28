@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""print size and errors"""
+
+
 class Square:
-    def __init__(self,size = 0):
+    """print size and errors"""
+    def __init__(self, size = 0):
 
         if type(size) is not int:
             raise TypeError("size must be an integer")
