@@ -2,7 +2,6 @@
 """print area and size"""
 
 
-
 class Square:
     """print size"""
     def __init__(self, size=0):
@@ -14,5 +13,5 @@ class Square:
             self.__size = size
     def area(self):
         """print area"""
-      self.area = self.__size ** 2
+        self.area = self.__size ** 2
       return (self.area)
