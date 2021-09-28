@@ -1,6 +1,11 @@
 #!/usr/bin/python3
+"""print area and size"""
+
+
+
 class Square:
-    def __init__(self,size = 0):
+    """print size"""
+    def __init__(self, size=0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -8,5 +13,6 @@ class Square:
         else:
             self.__size = size
     def area(self):
+        """print area"""
       self.area = self.__size ** 2
       return (self.area)
