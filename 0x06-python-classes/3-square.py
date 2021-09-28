@@ -11,7 +11,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+    
     def area(self):
         """print area"""
-        self.area = self.__size ** 2
-      return (self.area)
+      return (self.__size ** 2)
