@@ -32,9 +32,9 @@ class Rectangle():
     def width(self, value):
         """errors to the width"""
         if not isinstance(value, int):
-            raise TypeError("widht must be an integer")
+            raise TypeError("width must be an integer")
         elif value < 0:
-            raise ValueError("widht must be >=0")
+            raise ValueError("width must be >=0")
         self.__width = value
 
     @height.setter
