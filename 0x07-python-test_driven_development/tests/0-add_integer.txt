@@ -49,3 +49,17 @@ test 10:
 >>> add_integer(12, "")
 Traceback (most recent call last):
 TypeError: b must be an integer
+
+test 11:
+>>> add_integer(float('inf'), 7.8)
+Traceback (most recent call last):
+OverflowError: cannot convert float infinity to integer
+
+test 12:
+>>> add_integer(float('NaN'), 7.8)
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
+
+test 13:
+>>> add_integer(0.1e-3, 6.8)
+6
