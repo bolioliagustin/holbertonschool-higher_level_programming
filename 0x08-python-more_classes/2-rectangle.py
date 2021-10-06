@@ -4,7 +4,7 @@ create rectangle class and the white and white
 """
 
 
-class Rectangle():
+class Rectangle:
     """init the rectangle class"""
     def __init__(self, width=0, height=0):
         if not isinstance(width, int):
