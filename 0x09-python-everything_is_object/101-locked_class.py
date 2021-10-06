@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""""it pushes me away"""
+""""create class sin nada"""
 
 
 class LockedClass:
-    """make the pain go away"""
+    """locked class"""
     __slots__ = ['first_name']
