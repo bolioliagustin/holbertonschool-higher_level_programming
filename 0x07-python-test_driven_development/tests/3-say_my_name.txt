@@ -44,3 +44,9 @@ Test 6
 
 >>> say_my_name("", "Smith")
 My name is  Smith
+
+Test 7
+------
+>>> say_my_name()
+Traceback (most recent call last):
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
