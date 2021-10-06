@@ -74,4 +74,10 @@ Test 8
 Traceback (most recent call last):
 TypeError: div must be a number
 
-
+-------
+test 9
+-------
+>>> matrix = []
+>>> matrix_divided(matrix, 3)
+Traceback (most recent call last):
+IndexError: list index out of range
