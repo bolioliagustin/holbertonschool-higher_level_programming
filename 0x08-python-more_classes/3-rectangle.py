@@ -56,14 +56,13 @@ class Rectangle:
             return 0
         return (self.__width * 2) + (self.__height * 2)
 
-        def __str__(self):
-            """print rectangle"""
+    def __str__(self):
+        """print rectangle"""
         string = ""
         if self.__width == 0 or self.__height == 0:
-            print()
-        else:
-            for i in range(self.__height):
-                for x in range(self.__width):
-                    string += '#'
-                string += '\n'
-                return string[:-1]
+            return string
+        for i in range(self.__height):
+            for x in range(self.__width):
+                string += '#'
+            string += '\n'
+        return string[:-1]
