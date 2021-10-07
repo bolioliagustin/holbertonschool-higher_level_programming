@@ -68,10 +68,10 @@ class Rectangle:
         return string[:-1]
 
     def __repr__(self):
-        '''def rept rectangle'''
-        return "Rectangle({}, {})".format(self.__width, self.__height)
+        """makes  readable"""
+        return 'Rectangle(%s, %s)' % (self.__width, self.__height)
 
     def __del__(self):
-        '''del rectangle'''
+        """deletes  prints a message"""
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
