@@ -20,4 +20,3 @@ def text_indentation(text):
             i = ""
     if not any(c in i for c in chars):
         print(i.lstrip(), end="")
-
