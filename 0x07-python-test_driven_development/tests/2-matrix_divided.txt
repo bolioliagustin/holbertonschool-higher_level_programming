@@ -79,4 +79,4 @@ test 9
 -------
 >>> matrix = []
 >>> matrix_divided(matrix, 3)
-
+[]
