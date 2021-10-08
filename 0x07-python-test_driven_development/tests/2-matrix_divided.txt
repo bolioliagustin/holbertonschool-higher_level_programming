@@ -88,3 +88,11 @@ test 10
 >>> matrix_divided(matrix, 3)
 Traceback (most recent call last):
 TypeError: matrix must be a matrix (list of list) of integers/floats
+
+-------
+test 11
+-------
+>>> matrix = [1, 2]
+>>> matrix_divided(matrix, 3)
+Traceback (most recent call last):
+TypeError: matrix must be a matrix (list of list) of integers/floats
