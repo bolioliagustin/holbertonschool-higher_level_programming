@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-"""Test de 6-max_integer_test.py"""
-
-"""
-test funcion print max
-"""
+"""Test de 6-max_integer.py"""
 import unittest
 max_integer = __import__('6-max_integer').max_integer
+
 
 class TestMaxInteger(unittest.TestCase):
     """test to the class testmaxintenger"""
