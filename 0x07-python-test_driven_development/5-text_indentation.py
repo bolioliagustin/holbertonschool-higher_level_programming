@@ -10,6 +10,14 @@ def text_indentation(text):
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    tx1 = text.replace('.', '.\n\n').replace('?', '?\n\n').replace(':', ':\n\n')
-    tx = tx1.strip(" ")
-    print("{:s}".format(tx))
+    i = ""
+    chars = ['.', '?', ':']
+    for c in text:
+        i += c
+        if c in chars:
+            print(i.lstrip())
+            print()
+            i = ""
+    if not any(c in i for c in chars):
+        print(i.lstrip(), end="")
+
