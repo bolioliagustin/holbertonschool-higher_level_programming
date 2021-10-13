@@ -4,5 +4,5 @@
 
 class BaseGeometry():
     """print class"""
-    def  area(delf):
-        raise Exception ("area() is not implemented")
+    def area(delf):
+        raise Exception("area() is not implemented")
