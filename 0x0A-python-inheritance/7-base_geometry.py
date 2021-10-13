@@ -15,4 +15,3 @@ class BaseGeometry():
             raise TypeError(f"{self.name} must be an integer")
         if value <= 0:
             raise ValueError(f"{self.name} must be grater than 0")
-        return value
