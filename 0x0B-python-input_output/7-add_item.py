@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Function write a script that adds
 all arguments to a Python list"""
+
+
 from sys import argv
 
 
