@@ -1,6 +1,4 @@
 #!/bin/usr/node
-// create a Rectangle class
-
 module.exports = class Rectangle {
   constructor (w, h) {
     if (w > 0 && h > 0) {
