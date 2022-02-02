@@ -1,0 +1,18 @@
+#!/usr/bin/node
+const request = require('request');
+const options = {json: true}
+let number 0;
+request('https://swapi.co/api/films/', function (error, response, body) {
+  if (error) {
+    console.log(error);
+  } if (!error && res.statusCode === 200) {
+    body.results.forEach(element => {
+      element.characters.forEach(character => {
+        if (character.includes('/18/')) {
+          number += 1;
+        }
+      });
+     });
+    console.log(number);
+  }
+});
